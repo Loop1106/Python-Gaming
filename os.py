@@ -15,7 +15,7 @@ def generate_random_dates(years, commits_per_year=50):
     return random_dates
 
 # Generate dates for 2019, 2020, 2021, 2022, 2023, and 2024
-years_to_generate = [2019, 2020, 2021, 2022, 2023, 2024]
+years_to_generate = [2020, 2021, 2022, 2023, 2024]
 dates = generate_random_dates(years_to_generate)
 
 # Loop through each generated date and create a commit
