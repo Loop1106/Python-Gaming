@@ -31,4 +31,4 @@ for commit_date in dates:
     os.system(f'git commit --date="{date_str}" -m "Commit on {date_str}"')
 
 # Force push the new commits to the main branch
-os.system("git push -u origin main -f")
+os.system("git push -u origin master -f")
